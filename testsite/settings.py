@@ -25,7 +25,7 @@ SECRET_KEY = '-45x2t0^$-dm&shl#p@tl-=p^qzbf(hwf28i$h6wqx60i@e7pe'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['uvtest.pythonanywhere.com',]
 
 
 # Application definition
