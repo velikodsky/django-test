@@ -25,7 +25,7 @@ SECRET_KEY = '-45x2t0^$-dm&shl#p@tl-=p^qzbf(hwf28i$h6wqx60i@e7pe'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['uvtest.pythonanywhere.com',]
+ALLOWED_HOSTS = ['uvtest.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'testapp',
 ]
 
 MIDDLEWARE = [
